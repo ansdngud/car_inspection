@@ -1,0 +1,5 @@
+train: ./dataset/yolo/train/images
+val: ./dataset/yolo/val/images
+
+nc: 2
+names: ['dent', 'scratch']

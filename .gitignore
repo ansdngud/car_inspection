@@ -1,0 +1,24 @@
+# ROS2 colcon 빌드 산출물
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+
+# 데이터셋 / 촬영 결과 / 학습 결과
+hole_dataset/
+*_dataset/
+*_captures/
+runs/
+*.jpg
+*.png
+
+# 모델 가중치
+*.pt
+
+# 기타
+.vscode/
+*.bag
+*.db3
